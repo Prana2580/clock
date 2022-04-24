@@ -1,0 +1,48 @@
+html {
+  --unit-link: #06c;
+  --font-color: #1d1d1f;
+  --global-font-letter: inherit;
+}
+
+.unit-link {
+  color: var(--unit-link);
+  text-decoration: none;
+}
+
+.unit-link:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+button,
+input {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.circle-outer{
+  border: 5px solid tomato !important;
+  width: 500px;
+  border-radius: 50%;
+  height: 500px;
+  margin: auto;
+  background-color: #1d1d1f;
+}
+
+#date{
+  color: #fafafa;
+}
